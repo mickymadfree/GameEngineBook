@@ -158,7 +158,7 @@ We will model the outline of the shark based on reference images. To set up your
 
 4. Add three images for the three Axis/Views: Top, Front, and Right. They can be found in the reference folder named shark-top.png, shark-front.png, and shark-right.png.
 
-5. Change their size to 1.50
+5. Change their size to 3.00
 
 ![Background images setup(Blender Foundation).](../figures/Chapter2/Fig02-03.png "Redo last menu.")
 
@@ -238,7 +238,9 @@ Before we start, go to the Modifiers panel and apply the Mirror Modifier. If you
 
 To start creating a UV texture, you need to switch to Edit mode and call the UV Mapping menu (U). This menu has different mapping options. We will be using the first one,  Unwrap, which is a semi-automatic way to calculate the optimal stretching for the 2D texture. The result can be seen and edited in the UV/Image Editor.
 
+
 In the Editor menu, click Image > New, and in the pop-up menu, set UV Test Grid and confirm. This will produce a sample image where you can check in the 3D model as to how stretched the map image (texture) will be, once it is re-projected onto the shark model. If you look at Figure 2.13, you should spot a problem with the default unwrapping: the image on the side of the shark is too stretched and does not have enough resolution. While the shark tail has a high resolution, that doesn't correspond to its need (the tail is small after all) - the smaller the squares of the UV test grid, the higher the pixel-per-face ratio.
+
 
 ![Bad default unwrapping(Cengage Learning)](../figures/Chapter2/Fig02-13.png "Bad default unwrapping")
 
